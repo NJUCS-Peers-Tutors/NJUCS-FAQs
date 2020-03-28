@@ -1,0 +1,14 @@
+{
+    "title": "NJUCS FAQ",
+    "author": "NJUCS 朋辈导师",
+    "language": "zh-hans",
+    "theme-default": {
+        "showLevel": true
+    },
+    "plugins": [
+        "theme-comscore",
+        "toggle-chapters",
+        "flexible-alerts",
+        "-sharing"
+    ]
+}
