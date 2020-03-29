@@ -4,6 +4,12 @@
 
 您可以在编辑 [NJUCS-FAQs](https://github.com/NJUCS-Peers-Tutors/NJUCS-FAQs) 后，提交 Pull Request 请求修改。
 
+## 直接参与
+
+您可以在 [Issue](https://github.com/NJUCS-Peers-Tutors/NJUCS-FAQs/issues) 区直接回答同学提出的问题，本项目维护者会为您整理并通知您。
+
+如果您就某一问题/话题有经验、分享、想说的话，可以直接在 Issue 区新建问题，我们会为您整合。
+
 ## Gitbook 安装
 
 为了安装 gitbook，首先需要 npm 包管理器。在 [node 官网](https://nodejs.org/en/download/) 可以获取 Node.js 和 npm 的安装包。
