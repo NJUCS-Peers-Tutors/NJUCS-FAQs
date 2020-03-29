@@ -49,13 +49,13 @@ Read The Fxxking Manual
 对于终端工具，可以直接使用 `man` 命令查询，其文档遵循一定格式。读的次数越多，就越能适应这种格式了
 
 ```bash
-man ls
+$ man ls
 ```
 
 工具 `tldr` 基于社区维护（需要下载），对常用的方法进行解释。
 
 ```bash
-tldr pip
+$ tldr pip
 ```
 
 同样，终端命令常常还可以使用参数获得帮助

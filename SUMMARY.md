@@ -11,5 +11,7 @@
     * [Makefile](doc/Linux/Makefile.md)
     * [Linux 搭建](doc/Linux/build-Linux.md)
     * [FAQs](doc/Linux/FAQs.md)
+* [学习方法和心态](doc/Learning/Learning.md)
+* [出国、就业和保研](doc/Future/Future.md)
 * [How to Contribute](doc/How-to-contributes.md)
 
