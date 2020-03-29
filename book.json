@@ -8,6 +8,17 @@
     "plugins": [
         "theme-comscore",
         "flexible-alerts",
+        "pageview-count",
+        "back-to-top-button",
+        "code",
+        "tbfed-pagefooter",
+        "popup",
         "-sharing"
-    ]
+    ],
+    "pluginsConfig": {
+        "tbfed-pagefooter": {
+            "modify_label": "Last Modified:",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        }
+    }
 }

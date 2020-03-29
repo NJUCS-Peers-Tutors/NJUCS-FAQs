@@ -1,19 +1,20 @@
 # 文件操作
 
-现在，在自己的工程目录下继续探索。假设我们都在 `~/guide` 目录下进行
+现在，我们将在自己的工程目录下继续探索。本项目的工程目录为 `~/guide`
 
 ## 创建文件
 
 使用 `touch` 命令创建文件
 
 ```bash
-touch helloword.cpp
+$ touch helloword.cpp
 ```
 
 执行 `ls` 命令, 可以看到刚才新建的文件
 
 ```bash
-ls
+$ ls
+touch
 ```
 
 ## 复制文件
