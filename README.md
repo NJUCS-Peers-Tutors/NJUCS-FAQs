@@ -32,8 +32,8 @@
 > 2020.3.29
 >
 > - 17 级郑奘巍
-> 	- 提供了 gitbook 框架，并发起了 [NJUCS-Peers-Tutors](https://github.com/NJUCS-Peers-Tutors)/**NJUCS-FAQs** 项目
-> 	- 重构了内容的呈现方式
+>   - 提供了 gitbook 框架，并发起了 [NJUCS-Peers-Tutors](https://github.com/NJUCS-Peers-Tutors)/**NJUCS-FAQs** 项目
+>   - 重构了内容的呈现方式
 >
 > 2020.3.28
 >

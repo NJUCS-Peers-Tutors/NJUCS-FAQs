@@ -31,3 +31,7 @@ $ ssh njucs@120.78.76.94
 ![登录成功](https://tsunaou.github.io/linux_guide/images/login.png)
 
 然后你就可以开始愉快的 Linux 探索之旅了（温馨提示，用用`tab`键可以自动补全，在我配置的这个服务器上，尝试方向键`↑`说不定也有奇效哟）
+
+## 相关教程
+
+- [jyy 的贴心教程](https://nju-projectn.github.io/ics-pa-gitbook/ics2019/linux.html)
