@@ -1,10 +1,13 @@
 # Summary
 
-- [Introduction](README.md)
-- [获取帮助的方法](doc/How-to-get-help.md)
-- [Linux 基本操作](doc/Linux/Linux.md)
-  - [Linux 朋辈导师版 入门攻略](doc/Linux/introduction.md)
-  - [目录与文件操作](doc/Linux/directory.md)
-  - [文本编辑器](doc/Linux/editor.md)
-  - [编译运行 C/C++](doc/Linux/C.md)
-  - [Makefile](doc/Linux/Makefile.md)
+* [Introduction](README.md)
+* [获取帮助的方法](doc/How-to-get-help.md)
+* [Linux 基本操作](doc/Linux/Linux.md)
+    * [导航操作](doc/Linux/directory.md)
+    * [文件操作](doc/Linux/file.md)
+    * [文本编辑器](doc/Linux/editor.md)
+    * [编译运行 C/C++](doc/Linux/C.md)
+    * [Makefile](doc/Linux/Makefile.md)
+    * [Linux 搭建](doc/Linux/build-Linux.md)
+    * [FAQs](doc/Linux/FAQs.md)
+

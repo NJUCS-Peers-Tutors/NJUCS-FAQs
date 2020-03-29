@@ -7,7 +7,6 @@
     },
     "plugins": [
         "theme-comscore",
-        "toggle-chapters",
         "flexible-alerts",
         "-sharing"
     ]
