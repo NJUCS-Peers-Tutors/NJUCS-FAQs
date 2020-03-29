@@ -180,7 +180,7 @@
                 <a href="editor.html">
             
                     
-                    文本编辑器
+                    文本编辑器：Vim
             
                 </a>
             
@@ -188,7 +188,20 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3.4" data-path="C.html">
+        <li class="chapter " data-level="1.3.4" data-path="vscode.html">
+            
+                <a href="vscode.html">
+            
+                    
+                    文本编辑器：Vscode
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="C.html">
             
                 <a href="C.html">
             
@@ -201,7 +214,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3.5" data-path="Makefile.html">
+        <li class="chapter " data-level="1.3.6" data-path="Makefile.html">
             
                 <a href="Makefile.html">
             
@@ -214,7 +227,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3.6" data-path="build-Linux.html">
+        <li class="chapter " data-level="1.3.7" data-path="build-Linux.html">
             
                 <a href="build-Linux.html">
             
@@ -227,7 +240,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3.7" data-path="FAQs.html">
+        <li class="chapter " data-level="1.3.8" data-path="FAQs.html">
             
                 <a href="FAQs.html">
             
@@ -314,49 +327,68 @@
 touch
 </code></pre>
 <h2 id="&#x590D;&#x5236;&#x6587;&#x4EF6;">&#x590D;&#x5236;&#x6587;&#x4EF6;</h2>
-<p>&#x4F7F;&#x7528; <code>cp</code> &#x547D;&#x4EE4;&#x590D;&#x5236;&#x6587;&#x4EF6; (copy)</p>
-<pre><code class="lang-bash">cp helloworld.cpp hiworld.cpp
+<p>&#x4F7F;&#x7528; <code>cp</code> &#x547D;&#x4EE4;&#x590D;&#x5236;&#x6587;&#x4EF6; (copy)&#xFF0C;&#x5176;&#x4E2D;&#x7B2C;&#x4E00;&#x4E2A;&#x53C2;&#x6570;&#x4E3A;&#x5DF2;&#x7ECF;&#x5B58;&#x5728;&#x7684;&#x6587;&#x4EF6;&#xFF0C;&#x7B2C;&#x4E8C;&#x4E2A;&#x53C2;&#x6570;&#x4E3A;&#x590D;&#x5236;&#x51FA;&#x6765;&#x7684;&#x6587;&#x4EF6;&#x7684;&#x6587;&#x4EF6;&#x540D;&#x6216;&#x8DEF;&#x5F84;&#x3002;</p>
+<pre><code class="lang-bash">$ cp helloworld.cpp hiworld.cpp
+<span class="hljs-comment"># Same to: cp helloworld.cpp ./hiworld.cpp</span>
+$ mkdir folder
+$ cp helloworld.cpp folder/another_world.cpp
 </code></pre>
-<h2 id="&#x79FB;&#x52A8;&#x6587;&#x4EF6;">&#x79FB;&#x52A8;&#x6587;&#x4EF6;</h2>
+<h2 id="&#x79FB;&#x52A8;&#x548C;&#x91CD;&#x547D;&#x540D;&#x6587;&#x4EF6;">&#x79FB;&#x52A8;&#x548C;&#x91CD;&#x547D;&#x540D;&#x6587;&#x4EF6;</h2>
 <p>&#x4F7F;&#x7528; <code>mv</code> &#x547D;&#x4EE4;&#x79FB;&#x52A8;&#x6587;&#x4EF6; (move)</p>
-<pre><code class="lang-bash">mkdir folder
-mv hiworld folder/
+<pre><code class="lang-bash">$ mv hiworld.cpp tmp
+<span class="hljs-comment"># same to: mv hiworld folder/hiworld.cpp</span>
 </code></pre>
-<p>&#x8FD9;&#x65F6;&#x5019;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x4E0B;&#x9762;&#x7684;&#x547D;&#x4EE4;</p>
-<pre><code class="lang-bash">tree
-</code></pre>
-<p><img src="https://tsunaou.github.io/linux_guide/images/3.png" alt=""></p>
-<p>&#x53EF;&#x4EE5;&#x6CE8;&#x610F;&#x5230;&#xFF0C;<code>hiworld.cpp</code>&#x88AB;&#x79FB;&#x52A8;&#x5230;&#x76EE;&#x5F55;<code>folder</code>&#x4E2D;&#x4E86;&#x3002;<code>tree</code>&#x547D;&#x4EE4;&#x7684;&#x7ED3;&#x679C;&#x5176;&#x5B9E;&#x4E5F;&#x7ED9;&#x6211;&#x4EEC;&#x5C55;&#x793A;&#x4E86; Linux &#x4E0B;&#x7684;&#x6587;&#x4EF6;&#x76EE;&#x5F55;&#x5B9E;&#x9645;&#x4E0A;&#x4E5F;&#x662F;&#x4E00;&#x79CD;&#x6811;&#x7ED3;&#x6784;&#xFF08;&#x76F8;&#x4FE1;&#x5B66;&#x8FC7;&#x8BA1;&#x6784;&#xFF08;<del>&#x88AB;&#x8BA1;&#x6784;&#x6298;&#x78E8;&#x8FC7;</del>&#xFF09;&#x7684;&#x5C0F;&#x4F19;&#x4F34;&#x4EEC;&#x90FD;&#x77E5;&#x9053;&#xFF09;&#x3002;</p>
-<p>&#x5B9E;&#x9645;&#x4E0A;&#xFF0C;<code>mv</code>&#x547D;&#x4EE4;&#x7684;&#x529F;&#x80FD;&#x4E0D;&#x53EA;&#x662F;&#x79FB;&#x52A8;&#xFF0C;&#x5B83;&#x8FD8;&#x53EF;&#x4EE5;&#x91CD;&#x547D;&#x540D;&#x3002;&#x6309;&#x7167;&#x67D0;&#x4E9B;&#x547D;&#x540D;&#x89C4;&#x8303;&#xFF0C;<code>helloworld.cpp</code>&#x8FD9;&#x4E2A;&#x6587;&#x4EF6;&#x5176;&#x5B9E;&#x662F;&#x4E0D;&#x89C4;&#x8303;&#x7684;&#xFF0C;&#x56E0;&#x4E3A;&#x628A;&#x5355;&#x8BCD;&#x8FDE;&#x8D77;&#x6765;&#x4E0D;&#x5229;&#x4E8E;&#x9605;&#x8BFB;&#xFF0C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;<code>mv</code>&#x547D;&#x4EE4;&#x5BF9;&#x5176;&#x91CD;&#x547D;&#x540D;</p>
-<pre><code class="lang-bash">mv helloworld.cpp hello_world.cpp
+<p>&#x8FD0;&#x884C; <code>tree</code> &#x547D;&#x4EE4;&#x67E5;&#x770B;&#x7ED3;&#x679C;</p>
+<p><img src="https://tsunaou.github.io/linux_guide/images/3.png" alt="tree &#x7ED3;&#x679C;"></p>
+<p>&#x53EF;&#x4EE5;&#x6CE8;&#x610F;&#x5230;&#xFF0C;<code>hiworld.cpp</code> &#x88AB;&#x79FB;&#x52A8;&#x5230;&#x76EE;&#x5F55; <code>folder</code> &#x4E2D;&#x4E86;&#x3002;</p>
+<p>&#x5B9E;&#x9645;&#x4E0A;&#xFF0C;<code>mv</code>&#x547D;&#x4EE4;&#x7684;&#x529F;&#x80FD;&#x4E0D;&#x53EA;&#x662F;&#x79FB;&#x52A8;&#xFF0C;&#x5B83;&#x8FD8;&#x53EF;&#x4EE5;&#x91CD;&#x547D;&#x540D;&#x3002;&#x6309;&#x7167;&#x67D0;&#x4E9B;&#x547D;&#x540D;&#x89C4;&#x8303;&#xFF0C;<code>helloworld.cpp</code> &#x8FD9;&#x4E2A;&#x6587;&#x4EF6;&#x5176;&#x5B9E;&#x662F;&#x4E0D;&#x89C4;&#x8303;&#x7684;&#xFF0C;&#x56E0;&#x4E3A;&#x628A;&#x5355;&#x8BCD;&#x8FDE;&#x8D77;&#x6765;&#x4E0D;&#x5229;&#x4E8E;&#x9605;&#x8BFB;&#xFF0C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;<code>mv</code>&#x547D;&#x4EE4;&#x5BF9;&#x5176;&#x91CD;&#x547D;&#x540D;</p>
+<pre><code class="lang-bash">$ mv helloworld.cpp hello_world.cpp
 </code></pre>
 <p>&#x518D;&#x6B21;&#x8FD0;&#x884C;&#xFF0C;&#x4F1A;&#x53D1;&#x73B0;<code>helloworld.cpp</code>&#x4E0D;&#x89C1;&#x4E86;&#xFF0C;&#x53D6;&#x800C;&#x4EE3;&#x4E4B;&#x7684;&#x662F;<code>hello_world.cpp</code>&#x3002;</p>
 <p>&#x90A3;&#x4E48;&#x6709;&#x5C0F;&#x4F19;&#x4F34;&#x4EEC;&#x53EF;&#x80FD;&#x4F1A;&#x95EE;&#x4E86;&#xFF0C;Linux &#x4E0B;&#x547D;&#x4EE4;&#x90A3;&#x4E48;&#x591A;&#xFF0C;&#x6211;&#x54EA;&#x91CC;&#x77E5;&#x9053;<code>mv</code>&#x8FD8;&#x6709;&#x8FD9;&#x79CD;&#x7528;&#x6CD5;&#x554A;&#xFF08;&#x7B49;&#x5230;&#x5927;&#x4E8C;&#x4E0A;&#x7684; PA &#x4F1A;&#x544A;&#x8BC9;&#x4F60; STFM(<del>Search The Fucking Manual</del>)&#xFF09;&#x3002;&#x5176;&#x5B9E; linux &#x4E0B;&#x8FD8;&#x6709;&#x4E2A;&#x5F88;&#x6709;&#x7528;&#x7684;&#x529F;&#x80FD;&#xFF0C;&#x53EB;&#x505A;<code>man</code>&#xFF08;manual&#xFF09;</p>
-<pre><code class="lang-bash">man mv
+<pre><code class="lang-bash">$ man mv
 </code></pre>
 <p>&#x53EF;&#x4EE5;&#x770B;&#x5230;&#x5982;&#x4E0B;&#x7ED3;&#x679C;&#x3002;&#x53EA;&#x8981;&#x80FD;&#x770B;&#x5230;&#x82F1;&#x6587;&#xFF0C;&#x5F88;&#x591A;&#x65F6;&#x5019;&#x4E00;&#x4E9B;&#x547D;&#x4EE4;&#x7684;&#x7528;&#x6CD5;&#x5C31;&#x4F1A;&#x65E0;&#x5E08;&#x81EA;&#x901A;&#xFF0C;&#x662F;&#x4E00;&#x4E2A;&#x5F88;&#x5F3A;&#x7684;&#x5DE5;&#x5177;&#x3002;&#x952E;&#x5165;<code>q</code>&#x5373;&#x53EF;&#x9000;&#x51FA;&#x3002;</p>
 <p><img src="https://tsunaou.github.io/linux_guide/images/4.png" alt=""></p>
 <h2 id="&#x5220;&#x9664;&#x6587;&#x4EF6;">&#x5220;&#x9664;&#x6587;&#x4EF6;</h2>
-<p>&#x5B9E;&#x9645;&#x4E0A;&#xFF0C;<code>mv</code>&#x548C;<code>cp</code>&#x4EE5;&#x53CA;&#x63A5;&#x4E0B;&#x6765;&#x8981;&#x63D0;&#x5230;&#x7684;<code>rm</code>&#x547D;&#x4EE4;&#xFF0C;&#x4E0D;&#x6B62;&#x53EF;&#x4EE5;&#x9488;&#x5BF9;&#x6587;&#x4EF6;&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x9488;&#x5BF9;&#x76EE;&#x5F55;&#x3002;</p>
-<p>&#x5220;&#x9664;&#x4E4B;&#x524D;&#xFF0C;&#x6211;&#x4EEC;&#x9996;&#x5148;&#x590D;&#x5236;&#x4E00;&#x4E0B;<code>folder</code>&#x6587;&#x4EF6;&#x5939;</p>
-<pre><code class="lang-bash">cp folder folder_bak
+<p>&#x5B9E;&#x9645;&#x4E0A;&#xFF0C;<code>mv</code> &#x548C; <code>cp</code> &#x4EE5;&#x53CA;&#x63A5;&#x4E0B;&#x6765;&#x8981;&#x63D0;&#x5230;&#x7684; <code>rm</code> &#x547D;&#x4EE4;&#xFF0C;&#x4E0D;&#x6B62;&#x53EF;&#x4EE5;&#x9488;&#x5BF9;&#x6587;&#x4EF6;&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x9488;&#x5BF9;&#x76EE;&#x5F55;&#x3002;</p>
+<p>&#x5220;&#x9664;&#x4E4B;&#x524D;&#xFF0C;&#x6211;&#x4EEC;&#x9996;&#x5148;&#x590D;&#x5236;&#x4E00;&#x4E0B;<code>folder</code>&#x6587;&#x4EF6;&#x5939;&#xFF0C;&#x7136;&#x540E;&#x5C31;&#x4F1A;&#x53D1;&#x73B0;&#x7CFB;&#x7EDF;&#x62A5;&#x9519; QAQ(<del>&#x4E0D;&#x62A5;&#x70B9;&#x9519;&#x8FD8;&#x771F;&#x7684;&#x5BF9;&#x4E0D;&#x8D77;&#x79C3;&#x6389;&#x7684;&#x5934;</del>)</p>
+<pre><code class="lang-bash">$ cp folder folder_bak
+cp: -r not specified; omitting directory <span class="hljs-string">&apos;folder&apos;</span>
 </code></pre>
-<p>&#x7136;&#x540E;&#x5C31;&#x4F1A;&#x53D1;&#x73B0;&#x7CFB;&#x7EDF;&#x62A5;&#x9519; QAQ(<del>&#x4E0D;&#x62A5;&#x70B9;&#x9519;&#x8FD8;&#x771F;&#x7684;&#x5BF9;&#x4E0D;&#x8D77;&#x79C3;&#x6389;&#x7684;&#x5934;</del>)</p>
-<pre><code class="lang-log">cp: -r not specified; omitting directory &apos;folder&apos;
-</code></pre>
-<p>&#x8FD9;&#x4E2A;&#x62A5;&#x9519;&#x7684;&#x610F;&#x601D;&#x5176;&#x5B9E;&#x662F;&#x8BF4;&#xFF0C;&#x8981;&#x52A0;&#x4E0A;<code>-r</code>&#x53C2;&#x6570;(Recursive)&#x3002;&#x4EC0;&#x4E48;&#x610F;&#x601D;&#x5462;&#xFF1F;&#x67E5;&#x9605;&#x624B;&#x518C;</p>
+<p>&#x8FD9;&#x4E2A;&#x62A5;&#x9519;&#x7684;&#x610F;&#x601D;&#x5176;&#x5B9E;&#x662F;&#x8BF4;&#xFF0C;&#x8981;&#x52A0;&#x4E0A; <code>-r</code> &#x53C2;&#x6570;(Recursive)&#x3002;&#x4EC0;&#x4E48;&#x610F;&#x601D;&#x5462;&#xFF1F;&#x67E5;&#x9605;&#x624B;&#x518C;</p>
 <pre><code class="lang-bash">man cp
 </code></pre>
 <p>&#x53EF;&#x4EE5;&#x770B;&#x5230;&#x5176;&#x5B9E;&#x5C31;&#x662F;&#x9012;&#x5F52;&#xFF08;<del>&#x9012;&#x5F52;&#x53EF;&#x4E0D;&#x6B62;&#x5E94;&#x7528;&#x5728;&#x6C49;&#x8BFA;&#x5854;&#x548C;&#x6590;&#x6CE2;&#x90A3;&#x5951;</del>&#xFF09;&#x590D;&#x5236;&#x7684;&#x610F;&#x601D;&#x3002;</p>
-<p><img src="https://tsunaou.github.io/linux_guide/images/5.png" alt=""></p>
+<p><img src="https://tsunaou.github.io/linux_guide/images/5.png" alt="mv &#x624B;&#x518C;"></p>
 <p>&#x4E8E;&#x662F;&#x8F93;&#x5165;&#x5982;&#x4E0B;&#x547D;&#x4EE4;&#xFF0C;&#x5373;&#x53EF;&#x6210;&#x529F;&#x590D;&#x5236;&#xFF0C;&#x7136;&#x540E;&#x5C31;&#x53EF;&#x4EE5;&#x6109;&#x5FEB;&#x5730;&#x5220;&#x9664;&#x4E86;&#x3002;</p>
 <pre><code class="lang-bash">cp -r folder folder_bak
 </code></pre>
 <p>&#x4F7F;&#x7528; <code>rm</code> &#x547D;&#x4EE4;&#x5220;&#x9664;&#x6587;&#x4EF6;, &#x8F93;&#x5165; <code>y</code> &#x540E;&#x56DE;&#x8F66;&#x786E;&#x8BA4;&#x5220;&#x9664;</p>
 <pre><code class="lang-bash">rm folder/hiworld.cpp
 </code></pre>
-<p>&#x4F7F;&#x7528;<code>tree</code>&#x6216;&#x8005;<code>ls</code>&#x547D;&#x4EE4;&#xFF0C;&#x53EF;&#x4EE5;&#x770B;&#x5230;<code>rm folder/hiworld.cpp</code>&#x7684;&#x786E;&#x5DF2;&#x7ECF;&#x88AB;&#x5220;&#x4E86;&#x3002;&#x63A5;&#x4E0B;&#x6765;&#x6211;&#x4EEC;&#x5927;&#x80C6;&#x4E9B;&#xFF0C;&#x5220;&#x9664;<code>fold_bak</code>&#x76EE;&#x5F55;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x81EA;&#x5DF1;&#x5C1D;&#x8BD5;&#x5C1D;&#x8BD5;&#x3002;</p>
-<footer class="page-footer-ex"> <span class="page-footer-ex-copyright"> &#xA9; CC BY-NC 4.0 </span> &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0; <span class="page-footer-ex-footer-update"> <i>Last Modified</i>: 2020-03-29 05:35:16 </span> </footer>
+<p>&#x4F7F;&#x7528; <code>tree</code> &#x6216;&#x8005; <code>ls</code> &#x547D;&#x4EE4;&#xFF0C;&#x53EF;&#x4EE5;&#x770B;&#x5230;<code>rm folder/hiworld.cpp</code>&#x7684;&#x786E;&#x5DF2;&#x7ECF;&#x88AB;&#x5220;&#x4E86;&#x3002;&#x63A5;&#x4E0B;&#x6765;&#x6211;&#x4EEC;&#x5927;&#x80C6;&#x4E9B;&#xFF0C;&#x5220;&#x9664;<code>fold_bak</code>&#x76EE;&#x5F55;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x5C1D;&#x8BD5;&#x81EA;&#x5DF1;&#x5BFB;&#x627E;&#x5408;&#x9002;&#x7684;&#x6307;&#x4EE4;&#x3002;</p>
+<pre><code class="lang-bash">rm -rf folder
+<span class="hljs-comment"># -f: &#x4E0D;&#x8BE2;&#x95EE;&#x76F4;&#x63A5;&#x5220;&#x9664;</span>
+</code></pre>
+<blockquote>
+<p>[!Danger|style:flat|label:&quot;rm -rf&quot;]</p>
+<ul>
+<li><p><code>rm -rf</code> &#x662F;&#x4E2A;&#x5371;&#x9669;&#x7684;&#x6307;&#x4EE4;&#xFF01;&#x52A0;&#x4E0A; <code>-f</code> &#x540E;&#xFF0C;&#x83B7;&#x5F97;&#x4E86;&#x7701;&#x53BB;&#x4E86;&#x786E;&#x8BA4;&#x7684;&#x4FBF;&#x5229;&#xFF0C;&#x4F46;&#x662F;&#x4E00;&#x65E6;&#x9009;&#x9519;&#x76EE;&#x6807;&#xFF0C;&#x540E;&#x679C;&#x4E0D;&#x582A;&#x8BBE;&#x60F3;&#xFF01;<code>rm</code> &#x547D;&#x4EE4;&#x5220;&#x9664;&#x7684;&#x6587;&#x4EF6;&#x4E0D;&#x80FD;&#x5728;&#x56DE;&#x6536;&#x7AD9;&#x627E;&#x56DE;&#xFF0C;&#x4E00;&#x65E6;&#x9519;&#x5220;&#x6587;&#x4EF6;&#xFF0C;&#x540E;&#x6094;&#x83AB;&#x53CA;&#xFF01;&#x800C; <code>rm -rf /</code> &#x66F4;&#x662F;&#x4F20;&#x8BF4;&#x4E2D;&#x7684;&#x201C;&#x5220;&#x5E93;&#x8DD1;&#x8DEF;&#x201D;&#x6307;&#x4EE4;&#x3002;</p>
+</li>
+<li><p>&#x8FD9;&#x63D0;&#x9192;&#x6211;&#x4EEC;</p>
+<ol>
+<li>&#x8C28;&#x614E;&#x4F7F;&#x7528; <code>rm -f</code>&#xFF0C;&#x5220;&#x9664;&#x524D;&#x786E;&#x8BA4;&#x5220;&#x9664;&#x6587;&#x4EF6;/&#x6587;&#x4EF6;&#x5939;&#x6B63;&#x786E;</li>
+<li>&#x505A;&#x597D;&#x91CD;&#x8981;&#x6587;&#x4EF6;&#x5907;&#x4EFD;&#x4EE5;&#x514D;&#x4E22;&#x5931;<ol>
+<li>&#x505A;&#x597D;&#x7528;&#x6237;&#x6743;&#x9650;&#x7BA1;&#x7406;&#xFF0C;&#x4EE5;&#x514D;&#x5220;&#x9664;&#x91CD;&#x8981;&#x7CFB;&#x7EDF;&#x6587;&#x4EF6;</li>
+<li>&#x4F7F;&#x7528;&#x5B89;&#x5168;&#x7684;&#x5220;&#x9664;&#x64CD;&#x4F5C;&#xFF0C;&#x6BD4;&#x5982;&#x79FB;&#x52A8;&#x5230;&#x56DE;&#x6536;&#x7AD9;&#xFF0C;&#x6216;&#x4F7F;&#x7528; <a href="https://www.ostechnix.com/trash-cli-command-line-trashcan-unix-like-systems/" target="_blank">trash-cli</a> &#x7B49;&#x5220;&#x9664;&#x5DE5;&#x5177;</li>
+</ol>
+</li>
+</ol>
+</li>
+</ul>
+</blockquote>
+<footer class="page-footer-ex"> <span class="page-footer-ex-copyright"> &#xA9; CC BY-NC 4.0 </span> &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0; <span class="page-footer-ex-footer-update"> <i>Last Modified</i>: 2020-03-29 06:45:51 </span> </footer>
 <script>console.log("plugin-popup....");document.onclick = function(e){ e.target.tagName === "IMG" && window.open(e.target.src,e.target.src)}</script><style>img{cursor:pointer}</style>
                                 
                                 </section>
@@ -389,7 +421,7 @@ mv hiworld folder/
                 </a>
                 
                 
-                <a href="editor.html" class="navigation navigation-next " aria-label="Next page: 文本编辑器">
+                <a href="editor.html" class="navigation navigation-next " aria-label="Next page: 文本编辑器：Vim">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -400,7 +432,7 @@ mv hiworld folder/
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"文件操作","level":"1.3.2","depth":2,"next":{"title":"文本编辑器","level":"1.3.3","depth":2,"path":"doc/Linux/editor.md","ref":"doc/Linux/editor.md","articles":[]},"previous":{"title":"导航操作","level":"1.3.1","depth":2,"path":"doc/Linux/directory.md","ref":"doc/Linux/directory.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-sharing","theme-comscore","back-to-top-button","flexible-alerts","pageview-count","page-footer-ex","popup"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"page-footer-ex":{"copyright":"&copy CC BY-NC 4.0","markdown":false,"update_format":"YYYY-MM-DD HH:mm:ss","update_label":"<i>Last Modified</i>:"},"search":{},"popup":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"theme-comscore":{},"back-to-top-button":{},"pageview-count":{},"flexible-alerts":{"danger":{"className":"danger","icon":"fa fa-ban","label":"Attention"},"note":{"className":"info","icon":"fa fa-info-circle","label":"Note"},"style":"callout","tip":{"className":"tip","icon":"fa fa-lightbulb-o","label":"Tip"},"warning":{"className":"warning","icon":"fa fa-exclamation-triangle","label":"Warning"}},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"NJUCS 朋辈导师","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"NJUCS FAQ","language":"zh-hans","gitbook":"*","theme-default":{"showLevel":true}},"file":{"path":"doc/Linux/file.md","mtime":"2020-03-29T05:35:16.830Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-03-29T05:35:50.348Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"文件操作","level":"1.3.2","depth":2,"next":{"title":"文本编辑器：Vim","level":"1.3.3","depth":2,"path":"doc/Linux/editor.md","ref":"doc/Linux/editor.md","articles":[]},"previous":{"title":"导航操作","level":"1.3.1","depth":2,"path":"doc/Linux/directory.md","ref":"doc/Linux/directory.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-sharing","theme-comscore","back-to-top-button","flexible-alerts","pageview-count","page-footer-ex","popup"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"page-footer-ex":{"copyright":"&copy CC BY-NC 4.0","markdown":false,"update_format":"YYYY-MM-DD HH:mm:ss","update_label":"<i>Last Modified</i>:"},"search":{},"popup":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"theme-comscore":{},"back-to-top-button":{},"pageview-count":{},"flexible-alerts":{"danger":{"className":"danger","icon":"fa fa-ban","label":"Attention"},"note":{"className":"info","icon":"fa fa-info-circle","label":"Note"},"style":"callout","tip":{"className":"tip","icon":"fa fa-lightbulb-o","label":"Tip"},"warning":{"className":"warning","icon":"fa fa-exclamation-triangle","label":"Warning"}},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"NJUCS 朋辈导师","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"NJUCS FAQ","language":"zh-hans","gitbook":"*","theme-default":{"showLevel":true}},"file":{"path":"doc/Linux/file.md","mtime":"2020-03-29T06:45:51.767Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-03-29T06:46:29.388Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>
