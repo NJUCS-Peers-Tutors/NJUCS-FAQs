@@ -31,16 +31,17 @@
 
 > 2020.3.29
 >
-> - 17 级郑奘巍提供了 gitbook 框架，并发起了 [NJUCS-Peers-Tutors](https://github.com/NJUCS-Peers-Tutors)/**NJUCS-FAQs** 项目
+> - 17 级郑奘巍
+> 	- 提供了 gitbook 框架，并发起了 [NJUCS-Peers-Tutors](https://github.com/NJUCS-Peers-Tutors)/**NJUCS-FAQs** 项目
+> 	- 重构了内容的呈现方式
 >
 > 2020.3.28
 >
 > - 17 级陈善梁分享了
->   - 更舒服的写代码方式
->   - 在 windows 运行 Linux 系统
-> - 16 级吴德亚分享了自己 Debug 经验
->
->   - 面对 BUG 时，怎么办呢？
+>   - [更舒服的写代码方式](/doc/Linux/vscode.md)
+>   - [在 windows 运行 Linux 系统](/doc/Linux/build-Linux.md)
+> - 16 级吴德亚分享了
+>   - [面对 BUG 时，怎么办呢？](/doc/Linux/FAQs.md)
 >
 > 2020.3.27
 >
