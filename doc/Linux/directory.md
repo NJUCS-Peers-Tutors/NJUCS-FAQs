@@ -11,7 +11,7 @@ $ pwd
 /home/njucs
 ```
 
-使用 `mkdir` 命令创建目录（Make Directory）
+使用 `mkdir` 命令创建目录 (Make Directory)
 
 > [!Tip|style:flat]
 >

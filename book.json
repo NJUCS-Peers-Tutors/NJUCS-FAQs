@@ -6,19 +6,19 @@
         "showLevel": true
     },
     "plugins": [
+        "-sharing",
         "theme-comscore",
+        "back-to-top-button",
         "flexible-alerts",
         "pageview-count",
-        "back-to-top-button",
-        "code",
-        "tbfed-pagefooter",
-        "popup",
-        "-sharing"
+        "page-footer-ex",
+        "popup"
     ],
     "pluginsConfig": {
-        "tbfed-pagefooter": {
-            "modify_label": "Last Modified:",
-            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        "page-footer-ex": {
+            "update_label": "<i>Last Modified</i>:",
+            "update_format": "YYYY-MM-DD HH:mm:ss",
+            "copyright": "&copy CC BY-NC 4.0"
         }
     }
 }

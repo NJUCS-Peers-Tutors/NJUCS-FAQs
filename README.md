@@ -33,7 +33,7 @@
 >
 > - 17 级郑奘巍提供了 gitbook 框架，并发起了 [NJUCS-Peers-Tutors](https://github.com/NJUCS-Peers-Tutors)/**NJUCS-FAQs** 项目
 >
->   2020.3.28
+> 2020.3.28
 >
 > - 17 级陈善梁分享了
 >   - 更舒服的写代码方式
@@ -42,7 +42,7 @@
 >
 >   - 面对 BUG 时，怎么办呢？
 >
->     2020.3.27
+> 2020.3.27
 >
 > - 16 级欧阳鸿荣完成初稿
 
@@ -52,10 +52,10 @@
 
 你也可以在本项目的 [Issue](https://github.com/NJUCS-Peers-Tutors/NJUCS-FAQs/issues) 处提问。
 
-你也可以邮件本页的维护者。目前的维护者有（按字母排序）
+你也可以邮件本页的维护者。目前的维护者有（按首字母排序）
 
-- [欧阳鸿荣](161220096@smail.nju.edu.cn)
-- [郑奘巍](mailto:zzw@smail.nju.edu.cn)
+- 欧阳鸿荣：[161220096@smail.nju.edu.cn](mailto:161220096@smail.nju.edu.cn)
+- 郑奘巍：[zzw@smail.nju.edu.cn](mailto:zzw@smail.nju.edu.cn)
 
 ## 类似项目
 

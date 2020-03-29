@@ -19,7 +19,7 @@ touch
 
 ## 复制文件
 
-使用 `cp` 命令复制文件(copy)
+使用 `cp` 命令复制文件 (copy)
 
 ```bash
 cp helloworld.cpp hiworld.cpp
@@ -27,7 +27,7 @@ cp helloworld.cpp hiworld.cpp
 
 ## 移动文件
 
-使用 `mv` 命令移动文件(move)
+使用 `mv` 命令移动文件 (move)
 
 ```bash
 mkdir folder
