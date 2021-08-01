@@ -29,6 +29,13 @@
 
 ## 更新日志
 
+> 2021.8.1
+>
+> - 19 级沈天杰
+>   - 补充了[出国，就业和保研](doc/Future/Future.md)模块的信息
+>   - 新增了[新手入门](doc/Newbie/newbie.md)模块
+>   - 分享了[软件推荐](doc/Newbie/software.md)和[南大专属的生产力网站](doc/Newbie/njuonline.md)
+>
 > 2020.3.29
 >
 > - 17 级郑奘巍
@@ -56,8 +63,10 @@
 你也可以邮件本页的维护者。目前的维护者有（按首字母排序）
 
 - 欧阳鸿荣：[161220096@smail.nju.edu.cn](mailto:161220096@smail.nju.edu.cn)
+- 沈天杰：[191220090@smail.nju.edu.cn](mailto:161220096@smail.nju.edu.cn)
 - 郑奘巍：[zzw@smail.nju.edu.cn](mailto:zzw@smail.nju.edu.cn)
 
 ## 类似项目
 
 - [The Missing Semester of Your CS Education, MIT](https://missing.csail.mit.edu/): MIT 指导学生熟练掌握命令行工具
+- [SurviveSJTUManual](https://survivesjtu.gitbook.io/survivesjtumanual/): 上海交通大学生存手册

@@ -12,7 +12,8 @@
         "flexible-alerts",
         "pageview-count",
         "page-footer-ex",
-        "popup"
+        "popup",
+        "chapter-fold"
     ],
     "pluginsConfig": {
         "page-footer-ex": {
