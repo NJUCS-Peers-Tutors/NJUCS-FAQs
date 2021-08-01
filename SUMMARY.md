@@ -2,6 +2,9 @@
 
 * [写在前面的话](README.md)
 * [获取帮助的方法](doc/How-to-get-help.md)
+* [新手入门](doc/Newbie/newbie.md)
+  * [软件推荐](doc/Newbie/software.md)
+  * [南大在线](doc/Newbie/njuonline.md)
 * [Linux 基本操作](doc/Linux/Linux.md)
     * [导航操作](doc/Linux/directory.md)
     * [文件操作](doc/Linux/file.md)
@@ -13,5 +16,8 @@
     * [FAQs](doc/Linux/FAQs.md)
 * [学习方法和心态](doc/Learning/Learning.md)
 * [出国、就业和保研](doc/Future/Future.md)
+  - [出国](doc/Future/flyer.md)
+  - [就业](doc/Future/work.md)
+  - [保研](doc/Future/postgraduate.md)
 * [How to Contribute](doc/How-to-contributes.md)
 
