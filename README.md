@@ -29,6 +29,12 @@
 
 ## 更新日志
 
+> 2021.8.2
+>
+> + 19 级王毓琦分享了
+>   + [录制终端回放](doc/Linux/terminal-playback.md)
+>   + [包管理器换源](doc/Linux/switch-apt-sources.md)
+>
 > 2021.8.1
 >
 > - 19 级沈天杰
@@ -64,7 +70,14 @@
 
 - 欧阳鸿荣：[161220096@smail.nju.edu.cn](mailto:161220096@smail.nju.edu.cn)
 - 沈天杰：[191220090@smail.nju.edu.cn](mailto:161220096@smail.nju.edu.cn)
+- 王毓琦：[ricky.wang@smail.nju.edu.cn](mailto:ricky.wang@smail.nju.edu.cn)
 - 郑奘巍：[zzw@smail.nju.edu.cn](mailto:zzw@smail.nju.edu.cn)
+
+## 更多信息
+
+以下站点可以作为本手册的补充，你可以访问它们了解更多因为各种原因（如太过琐碎、篇幅过长等）而没有出现在该手册上的内容
+
++ 王毓琦：[个人主页](https://donnadie.top)
 
 ## 类似项目
 
