@@ -19,7 +19,7 @@ scriptreplay -V
 script -t 2>test.timefile -a test.txt
 ```
 
-该命令的意思是开始录制命令，将时序信息记录在`test.timefile`中，以及将输出信息记录在`test.txt`文件中。
+该命令的意思是开始录制命令，将时序信息记录在`test.timefile`中，以及将输出信息记录在`test.txt`文件中。当然，你可以根据自己的喜好自定义文件名。
 
 命令执行之后会出现这样一行显示：
 
@@ -70,7 +70,7 @@ scriptreplay test.timefile test.txt
 
 ## 回放分享
 
-前文已经说过，回放的时序信息和输出信息分别在 `test.timefile` 和 `test.txt` 文件中，因此只要将这两个文件分享对方，别人就可以在终端里复现你的问题并提供帮助。
+前文已经说过，回放的时序信息和输出信息分别在 `test.timefile` 和 `test.txt` 文件中，因此只要将这两个文件分享给对方，别人就可以在终端里复现你的问题并提供帮助。
 
 ## 总结
 
