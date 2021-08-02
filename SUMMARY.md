@@ -13,6 +13,7 @@
     * [编译运行 C/C++](doc/Linux/C.md)
     * [Makefile](doc/Linux/Makefile.md)
     * [Linux 搭建](doc/Linux/build-Linux.md)
+    * [录制终端回放](doc/Linux/terminal-playback.md)
     * [FAQs](doc/Linux/FAQs.md)
 * [学习方法和心态](doc/Learning/Learning.md)
 * [出国、就业和保研](doc/Future/Future.md)
