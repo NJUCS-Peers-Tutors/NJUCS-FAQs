@@ -69,7 +69,7 @@
 你也可以邮件本页的维护者。目前的维护者有（按首字母排序）
 
 - 欧阳鸿荣：[161220096@smail.nju.edu.cn](mailto:161220096@smail.nju.edu.cn)
-- 沈天杰：[191220090@smail.nju.edu.cn](mailto:161220096@smail.nju.edu.cn)
+- 沈天杰：[lawrshen@smail.nju.edu.cn](mailto:lawrshen@smail.nju.edu.cn)
 - 王毓琦：[ricky.wang@smail.nju.edu.cn](mailto:ricky.wang@smail.nju.edu.cn)
 - 郑奘巍：[zzw@smail.nju.edu.cn](mailto:zzw@smail.nju.edu.cn)
 
