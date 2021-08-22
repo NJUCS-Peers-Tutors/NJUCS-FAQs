@@ -29,6 +29,11 @@
 
 ## 更新日志
 
+> 2021.8.22
+>
+> - 19 级沈天杰
+>   - 分享了[新生FAQs](doc/Newbie/FAQs.md)并引入了项目[MiniWiki](https://pavinberg.github.io/MiniWiki/)对IDE的[介绍](doc/Newbie/software.md)
+>
 > 2021.8.2
 >
 > + 19 级王毓琦分享了
@@ -71,7 +76,6 @@
 - 欧阳鸿荣：[161220096@smail.nju.edu.cn](mailto:161220096@smail.nju.edu.cn)
 - 沈天杰：[lawrshen@smail.nju.edu.cn](mailto:lawrshen@smail.nju.edu.cn)
 - 王毓琦：[ricky.wang@smail.nju.edu.cn](mailto:ricky.wang@smail.nju.edu.cn)
-- 郑奘巍：[zzw@smail.nju.edu.cn](mailto:zzw@smail.nju.edu.cn)
 
 ## 更多信息
 
@@ -83,3 +87,4 @@
 
 - [The Missing Semester of Your CS Education, MIT](https://missing.csail.mit.edu/): MIT 指导学生熟练掌握命令行工具
 - [SurviveSJTUManual](https://survivesjtu.gitbook.io/survivesjtumanual/): 上海交通大学生存手册
+- [MiniWiki](http://pavinberg.gitee.io/miniwiki/): 为 NJUer 提供高质量信息的Wiki
