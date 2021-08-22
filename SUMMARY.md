@@ -5,6 +5,7 @@
 * [新手入门](doc/Newbie/newbie.md)
   * [软件推荐](doc/Newbie/software.md)
   * [南大在线](doc/Newbie/njuonline.md)
+  * [FAQs](doc/Newbie/FAQs.md)
 * [Linux 基本操作](doc/Linux/Linux.md)
     * [导航操作](doc/Linux/directory.md)
     * [文件操作](doc/Linux/file.md)

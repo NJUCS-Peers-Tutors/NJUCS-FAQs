@@ -3,6 +3,8 @@
 > [!Tip|style:flat]
 >
 > *.nju.edu.cn 
+> 
+> 点击标题跳转详细介绍噢
 
 ## [LaTeX](https://mp.weixin.qq.com/s/h_O4W55TxcicyUo_H3rYEQ)
 

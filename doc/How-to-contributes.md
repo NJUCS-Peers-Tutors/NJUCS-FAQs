@@ -21,6 +21,8 @@ $ npm install -g gitbook-cli
 $ gitbook -V
 ```
 
+更多操作可以参考这里我写的一份gitbook从开箱到使用[教程](https://lawrshen.github.io/post/wsl-gitbook/)。
+
 ## Github 操作流程
 
 NJUCS-FAQs 通过 Gitbook 发布，每次向 master 分支提交 pull 后，Github Actions 将自动构建到 gh-pages 分支并发布，等待时间约一分半。
@@ -31,10 +33,10 @@ NJUCS-FAQs 通过 Gitbook 发布，每次向 master 分支提交 pull 后，Gith
 $ git clone https://github.com/NJUCS-Peers-Tutors/NJUCS-FAQs.git
 ```
 
-新建自己的分支
+切到dev分支开发
 
 ```bash
-$ git checkout -b yourbranchname
+$ git switch dev
 ```
 
 安装插件
@@ -59,17 +61,16 @@ $ git add -A && git commit -m "解答了问题：如何在 Windows 上使用 Lin
 提交前先拉取最新版本
 
 ```bash
-$ git pull origin master:master
-$ git merge master
+$ git pull -r dev
 ```
 
 将修改提交到远端
 
 ```bash
-$ git push origin yourbranchname:master
+$ git push -u origin dev
 ```
 
-对于尚未加入的同学，可以 Fork 本项目并提交 Pull Requests
+提交 Pull Requests并需要reviewer通过
 
 ## Gitbook 语法
 
